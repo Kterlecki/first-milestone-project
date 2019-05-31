@@ -1,10 +1,15 @@
-body{
+ @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+
+body {
     font-family: 'Roboto', sans-serif;
-    
+
 }
 
 
-/* Jumbotron */
+/*----------------------------------------------- Jumbotron on Homepage */
+
 .callout-container {
     height: 100vh;
     background: url('asset/image/monkees.jpg') no-repeat center fixed;
@@ -18,13 +23,14 @@ body{
     justify-content: center;
     position: relative;
 }
+
 .opaque-overlay {
     position: absolute;
-    top:0;
-    left:0;
-    height:100%;
-    width:100%;
-    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .jumbotron {
@@ -32,14 +38,120 @@ body{
     color: white;
     font-weight: bolder;
     font-style: italic;
-    
+
+}
+
+.callout-container-album {
+    height: 100vh;
+    background: url('asset/image/album2.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* --------------------------------Album Image */
+
+.img-fluid {
+    max-width: 100%;
+    width: 80%;
+    height: 80%;
+
+}
+
+/* --------------------------------Album  */
+
+.album {
+    background-color: black;
+    color: white;
+}
+
+.new-album {
+    font-style: italic;
+    text-decoration: underline;
+    margin: 20px 0px;
+    color: gold;
+}
+
+.image-great-hits {
+    padding-right: 10px;
+    width: 250px;
+    height: 250px;
+    display: block;
+
+}
+
+.p-album-image {
+    margin-bottom: 0;
+    font-size: 20px;S
+
+}
+
+.list-great-hits {
+    list-style: none;
+    font-style: italic;
+    font-weight: bold;
 }
 
 
+.first-album-image {
+    display: block;
+    width: 250px;
+    height: 250px;
+    padding-right: 10px;
 
-/* Navbar */
+}
+
+@media (max-width: 576px) {
+    .new-album-image {
+        width: 100%;
+        height: auto;
+        padding-right: 0;
+    }
+    .image-great-hits {
+        width: 100%;
+        height: auto;
+        padding-right: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .first-album-image {
+        width: 100%;
+        height: auto;
+        padding-right: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+.fa-star {
+    color: gold;
+    font-size: 25px;
+    padding-right: 5px;
+
+}
+
+.fa-guitar {
+    color: brown;
+    font-size: 25px;
+    padding-left: 5px;
+}
+.fa-music {
+    color: yellow;
+    font-size: 25px;
+    padding-right: 5px;
+}
+
+/* -------------------------------------------------Navbar */
+
 .navbar {
-    color:white;
+    color: white;
 }
 
 #monkees-logo {
@@ -52,39 +164,63 @@ body{
 
 /* --------------------------------Footer */
 
- footer {
-  background-color: #525252;
-  color: #fafafa;
-  min-height: 100px;
-  margin: 0;
-  text-align: ;
- }
- 
- 
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 100px;
+    margin: 0;
+}
+
+
 .social-links {
-  padding-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 10px;
+}
+
+
+/* --------------------------------Contact */
+ .contact-heading {
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
  }
 
- .social-links li a i {
-  width: 32px;
-  height: 32px;
-  padding: 12px 0;
-  border-radius: 50%;
-  font-size: 13px;
-  line-height: 7px;
-  text-align: center;
+ .center-form {
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 70%;
+ }
+
+ button[type='submit'] {
+  margin-top: 15px;
+  margin-bottom: 20px;
   color: #fafafa;
-  background: #8f8f8f;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
+  background-color: #e84610;
  }
 
- .social-links li a i:hover {
-  background: #e84610;
- }
-
- #footer-details {
-  padding: 10px;
- }
+.uppercase {
+    text-transform: uppercase;
+}
