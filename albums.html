@@ -20,56 +20,73 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark container-fluid ">
-        <a class="navbar-brand" href="index.html" id='monkees-logo'>The Monkees!</a>
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark container-fluid ">
+            <a class="navbar-brand" href="index.html" id='monkees-logo'>The Monkees!</a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-        <div class="collapse navbar-collapse " id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item ">
-                    <a class="nav-link" href="#">Albums <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Tour</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Bookings</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Top Songs</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!--  --------------------------------------- Background image+ Jumbotron -->
-    <header>
-        <div class="container-fluid callout-container">
-
-            <div class="opaque-overlay">;</div>
-            <div class="row">
-                <div class="col-12">
-                    <section class="callout jumbotron text-center">
-                        <h1 class="jumbotron-header">The Monkees are Back!</h1>
-                        <hr class="block-divider block-divider--orange">
-                        <p class="lead">New Album out now!
-                            <span class="d-inline d-sm-none"><br></span>
-                            <br><strong>Tour Coming Soon!</strong></p>
-
-
-                    </section>
-                </div>
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Albums <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tour</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bookings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Top Songs</a>
+                    </li>
+                </ul>
             </div>
-
-        </div>
+        </nav>
     </header>
+    <!--  ---------------------------------------  Image+ paragraph -->
+
+    <section class='album'>
+        <img src="asset/image/album2.jpg" class="img-fluid rounded mx-auto d-block new-album-image " alt="Responsive image">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class='new-album'>New Album- SING TO THE STARS!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 text-center">
+                <img src="asset/image/greathits.jpg" class="rounded float-left image-great-hits" alt="Responsive image">
+                <p class='p-album-image'> Monkees greatest hits on one Album. Choosen by <strong>YOU!</strong> Includes your favourite:</p>
+                <ul class='list-great-hits'>
+                    <li><i class="fas fa-star"></i>Dancing on water</li>
+                    <li><i class="fas fa-star"></i>On a summer evening</li>
+                    <li><i class="fas fa-star"></i>While the stars shine</li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 text-center">
+                <img src="asset/image/first-album.png" class="rounded float-left first-album-image" alt="Responsive image">
+                <p class='p-album-image'> Get the <strong>Legendary</strong> classic Album which started it all!<br>
+                The Unforgettable tracks:
+                <i class="fas fa-guitar">
+                   
+                </i></p>
+                <ul class='list-great-hits'>
+                    <li><i class="fas fa-music"></i>Going solo</li>
+                    <li><i class="fas fa-music"></i>What I told </li>
+                    <li><i class="fas fa-music"></i>It begins</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
 
 
 
 
 
- <!--  --------------------------------------- Footer -->
+
+
+    <!--  --------------------------------------- Footer -->
     <footer class='container-fluid'>
         <div id='footer-details' class="row">
             <div class="col-sm-4">
@@ -82,8 +99,8 @@
                 <h5 class='uppercase general-sub'>Special Thanks</h5>
                 <p class='inline-block'>
                     Kt Productions and Code Institute
-                        <span class='sr-only'>Thank you</span>
-                    </a>
+                    <span class='sr-only'>Thank you</span>
+                   
                 </p>
             </div>
             <div class="col-sm-4">
