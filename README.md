@@ -16,7 +16,7 @@ However I believe the youth will also appreciate the theme of this website as it
 
 Please find a live Demo of the website below:
 
- 
+ https://kterlecki.github.io/first-milestone-project/
 
 #UX
 
@@ -212,6 +212,12 @@ I decided to use github to host my webpage. I found a guide on how to do this on
 - [Github Pages Guide](https://guides.github.com/features/pages/)
 
 One of the main reasons why I decided to use github is that we have used it through the course and I feel relatively familiar with it. It also helps that its free. It also extremely easy to use as it can host your webpage aslong as your code is present. This required no extra configurations.
+
+Please find a live Demo of the website below:
+
+ https://kterlecki.github.io/first-milestone-project/
+
+
 #Credits
 
  
