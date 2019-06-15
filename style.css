@@ -3,13 +3,49 @@
 
 
  body {
-     font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
  }
 
+ strong {
+  color: #edf302;
+ }
 
- /*----------------------------------------------- Jumbotron on Homepage */
+ /*----------------------------------------------- index on Homepage */
+.bg-img {
+  /* The image used */
+  background-image: url("asset/image/monkees.jpg");
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-size: 100% 100%;
+  min-height:-webkit-fill-available;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: #525252;
 
- .callout-container {
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px; black;
+}
+ 
+
+  h2 {
+   color: #D3D3D3;
+   text-align: center;
+   font-family: Arial, bold;
+   text-shadow: inherit;
+
+  }
+
+.callout-container {
      height: auto;
      background: url('asset/image/monkees.jpg') no-repeat center fixed;
      -webkit-background-size: cover;
@@ -40,233 +76,292 @@
      font-style: italic;
 
  }
-
  .callout-container-album {
-     height: 100vh;
-     background: url('asset/image/album2.jpg') no-repeat center fixed;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
+  height: 100vh;
+  background: url('asset/image/album2.jpg') no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+ }
+
+ .index-heading {
+  color: #edf302;
+ }
+
+ .lead {
+  font-weight: 500;
  }
 
  /* --------------------------------Album Image */
 
  .img-fluid {
-     max-width: 100%;
-     width: 80%;
-     height: 80%;
+  max-width: 100%;
+  width: 80%;
+  height: 80%;
 
  }
 
  /* --------------------------------Album  */
 
  .album {
-     background-color: black;
-     color: white;
+  background-color: black;
+  color: white;
  }
 
  .new-album {
-     font-style: italic;
-     text-decoration: underline;
-     margin: 20px 0px;
-     color: gold;
+  font-style: italic;
+  text-decoration: underline;
+  margin: 20px 0px;
+  color: gold;
  }
 
  .image-great-hits {
-     padding-right: 10px;
-     width: 250px;
-     height: 250px;
-     display: block;
+  padding-right: 10px;
+  width: 250px;
+  height: 250px;
+  display: block;
 
  }
 
  .p-album-image {
-     margin-bottom: 0;
-     font-size: 20px;
-     S
+  margin-bottom: 0;
+  font-size: 20px;
  }
 
  .list-great-hits {
-     list-style: none;
-     font-style: italic;
-     font-weight: bold;
+  list-style: none;
+  font-style: italic;
+  font-weight: bold;
  }
 
 
  .first-album-image {
-     display: block;
-     width: 250px;
-     height: 250px;
-     padding-right: 10px;
+  display: block;
+  width: 250px;
+  height: 250px;
+  padding-right: 10px;
 
  }
 
  @media (max-width: 576px) {
-     .new-album-image {
-         width: 100%;
-         height: auto;
-         padding-right: 0;
-     }
-     .image-great-hits {
-         width: 100%;
-         height: auto;
-         padding-right: 0;
-         padding-top: 10px;
-         padding-bottom: 10px;
-     }
+  .new-album-image {
+   width: 100%;
+   height: auto;
+   padding-right: 0;
+  }
+  .image-great-hits {
+   width: 100%;
+   height: auto;
+   padding-right: 0;
+   padding-top: 10px;
+   padding-bottom: 10px;
+  }
 
-     .first-album-image {
-         width: 100%;
-         height: auto;
-         padding-right: 0;
-         padding-top: 10px;
-         padding-bottom: 10px;
-     }
+  .first-album-image {
+   width: 100%;
+   height: auto;
+   padding-right: 0;
+   padding-top: 10px;
+   padding-bottom: 10px;
+  }
  }
 
  .fa-star {
-     color: gold;
-     font-size: 25px;
-     padding-right: 5px;
+  color: gold;
+  font-size: 25px;
+  padding-right: 5px;
 
  }
 
  .fa-guitar {
-     color: brown;
-     font-size: 25px;
-     padding-left: 5px;
+  color: brown;
+  font-size: 25px;
+  padding-left: 5px;
  }
 
  .fa-music {
-     color: yellow;
-     font-size: 25px;
-     padding-right: 5px;
+  color: yellow;
+  font-size: 25px;
+  padding-right: 5px;
  }
 
  /* -------------------------------------------------Navbar */
 
  .navbar {
-     color: white;
+  color: white;
  }
 
  #monkees-logo {
-     color: white;
-     font-weight: 400;
-     font-size: 25px;
-     font-style: italic;
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+  font-style: italic;
  }
 
 
  /* --------------------------------Footer */
 
  footer {
-     background-color: #525252;
-     color: #fafafa;
-     min-height: 100px;
-     margin: 0;
+  background-color: #525252;
+  color: #fafafa;
+  min-height: 100px;
+  margin: 0;
  }
 
 
  .social-links {
-     padding-bottom: 15px;
+  padding-bottom: 15px;
  }
 
  .social-links li a i {
-     width: 32px;
-     height: 32px;
-     padding: 12px 0;
-     border-radius: 50%;
-     font-size: 13px;
-     line-height: 7px;
-     text-align: center;
-     color: #fafafa;
-     background: #8f8f8f;
-     transition: all 0.35s ease-in-out;
-     -moz-transition: all 0.35s ease-in-out;
-     -webkit-transition: all 0.35s ease-in-out;
-     -o-transition: all 0.35s ease-in-out;
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: #fafafa;
+  background: #8f8f8f;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
  }
 
  .social-links li a i:hover {
-     background: #e84610;
+  background: #e84610;
  }
 
  #footer-details {
-     padding: 10px;
+  padding: 10px;
  }
 
 
  /* --------------------------------Contact */
 
  .contact-heading {
-     font-weight: 300;
-     margin-top: 25px;
-     margin-bottom: 20px;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #edf302;
  }
 
  .center-form {
-     padding-top: 10px;
-     margin: 0 auto;
-     max-width: 70%;
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 70%;
  }
 
  button[type='submit'] {
-     margin-top: 15px;
-     margin-bottom: 20px;
-     color: #fafafa;
-     background-color: #e84610;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: #fafafa;
+  background-color: #007bff;
  }
 
  .uppercase {
-     text-transform: uppercase;
+  text-transform: uppercase;
+ }
+ 
+ .centered-contact {
+ padding-top: 30px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px; black;
  }
 
  /* -------------------------------------Audio */
 
  .song-background {
-     background-color: black;
-     color: white;
+  background-color: black;
+  color: white;
  }
 
 
  .audio-file {
-     width: 40%;
+  width: 40%;
  }
 
  @media (max-width: 576px) {
-     .p-song {
-         margin-bottom: 0;
-         font-size: 20px;
-         padding: 20px 0px
-     }
-     .audio-file {
-         width: 60%;
+  .p-song {
+   margin-bottom: 0;
+   font-size: 20px;
+   padding: 20px 0px
+  }
+  .audio-file {
+   width: 60%;
 
-     }
+  }
  }
 
  @media (min-width: 577px) {
-     .p-song {
-         margin-bottom: 0;
-         font-size: 20px;
-         padding-top: 60px;
-         padding-bottom: 20px;
-     }
+  .p-song {
+   margin-bottom: 0;
+   font-size: 20px;
+   padding-top: 60px;
+   padding-bottom: 20px;
+  }
  }
 
  @media (min-width: 992px) {
-     .p-song {
-         margin-bottom: 0;
-         font-size: 20px;
-         padding-top: 40px;
-     }
+  .p-song {
+   margin-bottom: 0;
+   font-size: 20px;
+   padding-top: 40px;
+  }
 
 
  }
+
+
+ /*----------------------------------------------Tour */
+
+ .history-items {
+  margin-bottom: 30px;
+
+ }
+
+ .bg-tour-color {
+  background-color: black;
+ }
+
+ .tour-heading {
+  width: 100%;
+  color: #edf302;
+  text-align: center;
+  padding: 50px 0px
+ }
+
+ .p-tour {
+  display: block;
+  color: white
+ }
+
+ .timeline-item {
+  border-bottom: 1px white solid;
+  width: 100%;
+  padding: 20px 0px;
+  text-align: center
+ }
+
+ .button-tour {
+  width: 30%;
+
+ }
+
+ .wrapper {
+  text-align: center;
+  padding-bottom: 20px;
+ }
+
+ .form {
+  padding: 50%;
+ }
+
+ 
  
